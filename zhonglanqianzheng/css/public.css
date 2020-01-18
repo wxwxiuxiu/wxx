@@ -1,0 +1,183 @@
+ul li{
+	list-style: none;
+}
+.navbar{
+	background-color: white;
+	padding-top: 15px;
+	border-bottom: 2px solid #0BA1E4;
+	padding-bottom: 15px;
+}
+@media screen and (min-width:992px) {
+	.container{
+		width: 970px;
+	}
+}
+.navbar-right li{
+	margin-left: 25px;
+	font-size: 16px;
+}
+.navbar-right li a:hover{
+	color: #0BA1E4 !important;
+}
+.nav-blue a{
+	color: #0BA1E4 !important;
+}
+#banner{
+	margin-top: 62px;
+}
+#footer-one{
+	position: relative;
+}
+#footer-one .container{
+	width: 100%;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+	z-index: 3;
+}
+#footer-one .container h2{
+	color: white;
+	font-weight: 100;
+}
+#footer-one .container .line{
+	height: 3px;
+	width: 400px;
+	border-top: 2px solid white;
+}
+#footer-one .container h4{
+	color: white;
+	font-weight: 100;
+}
+#footer-one .container a{
+	color: white;
+	/* font-weight: 100; */
+	border: 1px solid white;
+	padding: 10px 35px;
+}
+#footer-one .container a:hover{
+	background-color: white;
+	color: #0ba1e4;
+}
+#footer-two{
+	background-color: #363636;
+	color: white;
+}
+#footer-two .footer-item{
+	height: 160px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding-left: 10px;
+	border-left: 2px solid #C1C1C1;
+	overflow: hidden;
+}
+#footer-two .footer-item h4{
+	color: #F5F5F5;
+}
+#footer-two .footer-item ul li a{
+	color: #F5F5F5;
+	line-height: 30px;
+	margin-left: -38px;
+}
+#footer-two .footer-item-last{
+	border-right: 2px solid #C1C1C1;
+}
+#footer-two .footer-item .footer-contact h2{
+	height: 50px;
+	font-size: 30px;
+	margin-top: 0px;
+}
+#footer-two .footer-item .footer-wechat p{
+	padding: 10px 0px;
+}
+@media screen and (max-width:768px) {
+	#footer-two .footer-item .footer-wechat img{
+		width: 130px;
+		height: 130px;
+	}
+}
+#footer-three{
+	background-color: #666666;
+}
+#footer-three .col-sm-12 p,#footer-three .col-sm-12 a{
+	color: white;
+}
+#clan-slider{
+	position: fixed;
+	top: 200px;
+	right: 2px;
+}
+#clan-slider .hidden-xs{
+    width: 50px;
+	height: 50px;
+	background-color: white;
+	color: #0ba1e4;
+	margin-bottom: 10px;
+	position: relative;
+	border: 1px solid #0ba1e4;
+}
+#clan-slider .hidden-xs .clan-slider-tips{
+	position: absolute;
+	top: -1px;
+	right: 49px;
+	height: 50px;
+	background-color: #0ba1e4;
+	color: white;
+	display: none;
+}
+#clan-slider .hidden-xs .clan-one{
+	width: 100px;
+	line-height: 50px;
+	font-size: 20px;
+}
+#clan-slider .hidden-xs .clan-two{
+	width: 80px;
+	line-height: 50px;
+	font-size: 20px;
+}
+#clan-slider .hidden-xs .clan-three{
+	width: 180px;
+	line-height: 50px;
+	font-size: 20px;
+}
+#clan-slider .hidden-xs .iconfont{
+	font-size: 35px;
+	line-height: 50px;
+}
+#clan-slider .hidden-xs:hover .clan-slider-tips{
+	display: block;
+}
+#clan-slider .hidden-xs:hover{
+	color: white;
+	background-color: #0ba1e4;
+}
+#clan-slider .hidden-xs .clan-slider-tips-wechat{
+	position: absolute;
+	top: -150px;
+	right: 50px;
+	display: none;
+}
+#clan-slider .hidden-xs:hover .clan-slider-tips-wechat{
+	display: block;
+}
+#mob-bottom{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: rgba(255,255,255,0.8);
+	border-top: 1px solid #0ba1e4;
+	display: none;
+}
+#mob-bottom .mob-bottom-item{
+	padding: 10px 0px 0px 0px;
+}
+#mob-bottom .mob-bottom-item span{
+	outline: none;
+	color: black;
+	font-size: 13px;
+}
+@media screen and (max-width:768px) {
+	#mob-bottom{
+		display: block;
+	}
+}

@@ -1,0 +1,75 @@
+#content .container .data-container .refer-item .refer-content{
+	background: url(../images/liucheng.png) no-repeat;
+	padding-left: 144px;
+}
+#content .container .data-container .refer-item:nth-of-type(-n+5):nth-of-type(n+4) .refer-content{
+	background: url(../images/zhoubian.png) no-repeat;
+}
+#content .container .data-container .refer-item:nth-of-type(-n+12):nth-of-type(n+6) .refer-content{
+	background: url(../images/quancheng.png) no-repeat;
+}
+#content .container .data-container .refer-item .refer-content h3{
+	font-weight: 100;
+	border-bottom: 1px dashed lightgray;
+	padding-bottom: 10px;
+}
+#content .container .data-container .refer-item .dynamic-li span{
+	display: inline-block;
+	padding-right: 20px;
+	padding-top: 7px;
+}
+#content .container .data-container .refer-item p{
+	padding-top: 7px;
+}
+#content .container .data-container .refer-item .refer-content a{
+	float: right;
+	border: 1px solid orange;
+	color: orange;
+}
+#content .container .data-container .refer-item p .star{
+	color: lightgray;
+}
+#content .container .col-sm-3{
+	border-left: 1px solid darkgray;
+	overflow: hidden;
+	/* width: 120%; */
+}
+#sidebar{
+	width: 120%;
+	overflow-y: scroll;
+}
+#sidebar-content h4{
+	font-weight: 100;
+	border-bottom: 1px solid darkgray;
+	padding-bottom: 15px;
+	width: 237px;
+}
+#sidebar-content .sidebar-contact{
+	margin-bottom: 40px;
+}
+.sidebar-chat,.sidebar-laidian,.sidebar-qq{
+	color: orange;
+	font-size: 20px;
+	font-weight: 100;
+	margin: 10px;
+}
+.sidebar-chat span,.sidebar-laidian span,.sidebar-qq span{
+	font-size: 20px;
+}
+.sidebar-chat a,.sidebar-laidian a,.sidebar-qq a{
+	text-decoration: none;
+	color: orange;
+}
+#sidebar-content ul li a{
+	color: black;
+	text-decoration: none;
+}
+#sidebar-content ul li a:hover{
+	color: #0ba1e4;
+}
+#sidebar-content ul li{
+	line-height: 30px;
+}
+#sidebar-content ul{
+	padding-left: 20px;
+}
